@@ -21,3 +21,9 @@ const donnie = new Employee('Donatello', 90000, 'Ninja', splinter);
 const raph = new Employee('Raphael', 90000, 'Ninja', splinter);
 
 console.log('After: ', splinter);
+
+try {
+  module.exports = Manager
+} catch {
+  module.exports = null
+}
